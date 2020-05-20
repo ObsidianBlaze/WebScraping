@@ -1,0 +1,4 @@
+# Use the @ to find an attribute in xpath and the ::attr in css locator
+# Use the ::text for css locator to get a text and /text() to get a text with xpath
+# Use the / to go to the child and the // to go to the generation for xpath and for css locator, use whitespace
+#

@@ -1,7 +1,6 @@
 # from scrapy import selector
 # import request
 # print(3)
-# Use the @ to find an attribute
 
 # finds all p tag
 # xpath = //p

@@ -21,3 +21,14 @@ print(sel.xpath("//@id"))
 
 # Searching for a particular class attribute
 print(sel.xpath("//p[@class = '-mas -elli2']"))
+
+# Selecting all products in class mas elli2
+print(sel.xpath('//p[@class = "-mas -elli2"]//text()').extract())
+
+# Searching for ps4 console image
+print(sel.xpath('//div/img[@alt="PS4 Consoles"]').extract())
+
+# Printing out all the courses offered in the home page
+# all_courses = sel.xpath('//h5[@class="technology__title"]/*')
+# Printing out the courses
+# print(sel.xpath('//h5[@class = "technology__title"]'))
